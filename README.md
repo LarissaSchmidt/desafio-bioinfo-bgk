@@ -100,7 +100,7 @@ while True:
 print('Até mais!')
 ```
 
-Para evitar os erros que poderiam advir de uma ID inexistente ou errada, realizamos um tratamento de erros com o comando 'try' e 'except'; que tenta rodar o código e caso de erro retorna a mensagem de erro sem finalizar o programa, continuando o loop normalmente para receber o próximo input de ID
+Para evitar os erros que poderiam advir de uma ID inexistente ou errada, realizamos um tratamento de erros com o comando 'try' e 'except'; que tenta rodar o código e caso dê erro retorna a mensagem de erro sem finalizar o programa, continuando o loop normalmente para receber o próximo input de ID
 ```ruby
 def pega_seq_genbank(genbank_id):
     try:
@@ -160,16 +160,6 @@ print('Até mais!')
 
 ```
 
-# Índice 
+# Referências
 
-* [Badges](#badges)
-* [Índice](#índice)
-* [Descrição do Projeto](#descrição-do-projeto)
-* [Construção Código](#construção-código)
-* [Código](#código)
-* [Explicação](#explicação)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
-* [Licença](#licença)
-* [Conclusão](#conclusão)
+Para escrever o código utilizei o auxílio principalmente das plataformas Rosalind, Biopython.org e Biostars. Para criar o README utilizei o guia da Alura e GitHub Docs. 
